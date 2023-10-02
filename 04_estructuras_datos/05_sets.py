@@ -1,5 +1,5 @@
-# Declarar un set
-set_a = {1, 2, 3}
+# Declarar un set. Son una estructura de datos que ermites guardar elementos únicos. No son estructuras ordenadas y no se puede acceder a ellas a parti de índices
+set_a = {1, 2, 3} 
 print(type(set_a), set_a)
 
 # Si hay elementos repetidos solo se conserva el elemento una vez

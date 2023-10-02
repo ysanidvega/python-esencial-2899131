@@ -1,6 +1,9 @@
 # Declarar una lista
 lenguajes = ["python", "java", "javascript", "golang"]
 print(lenguajes)
+lenguajes[0]
+len(lenguajes)
+
 
 # Las listas pueden contener elementos de diferentes tipos
 lista_a = [True, 1, 2.0, "python", 1] 
@@ -8,6 +11,7 @@ print(lista_a)
 
 # Usamos indices para extraer un elemento
 print(lenguajes[0])
+print(len(lenguajes))
 
 # La función len() devuelve el tamaño de la lista
 print(len(lenguajes))
@@ -36,6 +40,8 @@ print(lenguajes)
 otros_lenguajes = ["c++", "c#"]
 lenguajes.extend(otros_lenguajes)
 print(lenguajes)
+lenguajes.append(otros_lenguajes)
+
 
 # Eliminación de elementos de la lista
 lenguajes.pop(2)

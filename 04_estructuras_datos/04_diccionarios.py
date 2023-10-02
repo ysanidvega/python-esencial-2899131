@@ -1,4 +1,4 @@
-# Declarar un diccionario
+# Declarar un diccionario. No podemos usar ídices para acceder a sus elementos. Debemos usar las llaves para acceder a su respectivo valor.
 lenguaje = {
     "nombre": "python",
     "creador": "Guido Van Rossum"
